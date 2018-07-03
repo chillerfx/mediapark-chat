@@ -11,3 +11,10 @@ Bonus points už:
 + file upload/download funkcija.
 
 Projektą sukelti į viešą git repo (github/bitbucket).
+
+## Kaip pasileisti?
+
+1. Clone this repo
+2. Run change directory to this project `npm install`
+3. Run command `npde app.js`
+4. Open browser at `localhost:3000`

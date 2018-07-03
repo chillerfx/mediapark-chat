@@ -1,0 +1,26 @@
+{
+  "name": "mediapark-chat",
+  "version": "1.0.0",
+  "description": "Naudojant nodejs + express framework, sukurti paprastą chat aplikaciją, pasiekiamą su naršykle per http.\r Atidarius naršyklę turi būti galima siųsti žinutes, matyti visu naudotojų sąrašą, pasikeisti username.\r Ir matyti žinucių istoriją. Žinutes turi būt saugomos jūsų pasirinktoj duomenų bazėj.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "sequelize": "^4.38.0",
+    "socket.io": "^2.1.1",
+    "sqlite3": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chillerfx/mediapark-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chillerfx/mediapark-chat/issues"
+  },
+  "homepage": "https://github.com/chillerfx/mediapark-chat#readme"
+}
