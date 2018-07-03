@@ -13,8 +13,8 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + '/index.html');
 });
 /* Creating empty tables */
-// Message.sync({force: true})
-// User.sync({force: true})
+Message.sync({force: true})
+User.sync({force: true})
 
 
 http.listen(app.get("port"))
