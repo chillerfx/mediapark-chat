@@ -60,7 +60,7 @@ io.on('connection', (socket) => {
             socket.emit('messages', messages)
         })
     }
-    /* Send new messages and users on new connection */
+    /* Send all messages and users on new connection */
     Message.findAll({
         include: [{
             model: User,
